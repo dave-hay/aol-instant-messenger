@@ -1,0 +1,24 @@
+.chat_message{
+    position: relative;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.chat_name{
+    position: absolute;
+    top:-15px;
+    font-weight: 800;
+    font-size: xx-small;
+}
+
+.chat_timestamp{
+    margin-left: 10px;
+    font-size: xx-small;
+}
+
+.chat_receiver{
+    margin-left: auto;
+    background-color: var(--bg-chat-reciever);
+}
