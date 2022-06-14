@@ -12,7 +12,7 @@ import {
   serverTimestamp,
   addDoc,
 }                                                                                                                      from "firebase/firestore";
-import { ChatWindow, HeaderBar, Divider, ChatWindowContent, ChatMessages, TextArea, Footer, WindowButton, FooterForm } from "./Chat.styles";
+import { ChatWindow, HeaderBar, Divider, ChatWindowContent, ChatMessages, TextArea, Footer, WindowButton } from "./Chat.styles";
 
 const Chat = () => {
   const [input, setInput] = useState("");

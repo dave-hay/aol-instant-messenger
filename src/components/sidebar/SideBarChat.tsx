@@ -11,7 +11,6 @@ export interface ISideBarChat {
 }
 
 const SideBarChat = ({ id, name, addNewChat }: ISideBarChat) => {
-  const [seed, setSeed] = useState(0);
   const [messages, setMessages] = useState<any[]>([]);
 
   useEffect(() => {
@@ -24,10 +23,6 @@ const SideBarChat = ({ id, name, addNewChat }: ISideBarChat) => {
       });
     }
   }, [id]);
-
-  useEffect(() => {
-    setSeed(Math.floor(Math.random() * 5000));
-  }, []);
 
   const createChat = async () => {
     const roomName = prompt("Please Enter Name for Chat");

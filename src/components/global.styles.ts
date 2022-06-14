@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-import Background from '../images/background.png'
 
 export const HeaderBar = styled('header')`
   padding: 10px;

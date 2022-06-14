@@ -1,5 +1,4 @@
 import styled     from "@emotion/styled";
-import Background from '../../images/background.png'
 
 export const ChatWindow = styled('div')`
   flex: 0.65;

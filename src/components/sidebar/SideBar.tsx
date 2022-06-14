@@ -3,7 +3,7 @@ import { useEffect, useState }                                                  
 import { useSelector }                                                                        from "react-redux";
 import { collection, query, onSnapshot }                                                      from "firebase/firestore";
 import db                                                                                     from "../../firebase";
-import { SidebarWrapper, SidebarContents, UserInfo, LogoContainer, RoomBox, RoomsUl, RoomLi, Logo } from "./SideBar.styles";
+import { SidebarWrapper, SidebarContents, UserInfo, LogoContainer, RoomBox, RoomsUl, Logo } from "./SideBar.styles";
 import { HeaderBar, Divider }                                                                 from "../global.styles";
 import LogoImg                                                                                from "../../images/icon.png";
 
